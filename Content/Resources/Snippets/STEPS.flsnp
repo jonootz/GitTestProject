@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="500" MadCap:lastWidth="1448">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="646" MadCap:lastWidth="1146">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -13,7 +13,15 @@
             <col class="Column-Column1" />
             <thead>
                 <tr class="Head-Header1">
-                    <th class="HeadE-Column1-Header1">Step</th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Step</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                        <p>&#160;</p>
+                    </th>
                     <th class="HeadE-Column1-Header1">Reason</th>
                     <th class="HeadE-Column1-Header1">Flare</th>
                     <th class="HeadE-Column1-Header1">Remote</th>
@@ -124,7 +132,7 @@
                     <td class="BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="Body-Body1">
-                    <td class="BodyE-Column1-Body1">&#160;</td>
+                    <td class="BodyE-Column1-Body1">Merging</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
