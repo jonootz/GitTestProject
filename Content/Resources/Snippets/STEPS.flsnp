@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1099" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1056" MadCap:lastWidth="1250">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -31,7 +31,10 @@
                             <li>(New project)<b> !File |&#160;New Project |&#160;check Bind to Source Control &gt; Bind Project</b> <ul><li>Bind locally only (default)</li><li>Set up a remote (Use URL&#160;from Remote)<ul><li>Push on initial bind</li></ul></li></ul></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">If Pushing to remote on initial bind, then you need to get URL from Remote Repository (GitLab, GitHub, etc.)</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">
+                        <p MadCap:conditions="">If Pushing to remote on initial bind, then you need to get URL from Remote Repository (GitLab, GitHub, etc.)</p>
+                        <p MadCap:conditions="">&#160;</p>
+                    </td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
                         <p><code>git init</code>
                         </p>
@@ -56,7 +59,7 @@
                         </ul>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">n/a</td>
-                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">Files become "Untracked"</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">&#160;</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.3">
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Commit</td>
@@ -167,6 +170,5 @@
                 </tr>
             </tbody>
         </table>
-        <p class="spacer">&#160;</p>
     </body>
 </html>

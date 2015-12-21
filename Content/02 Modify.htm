@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="382" MadCap:lastWidth="1197" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8 or Default.9] ">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="509" MadCap:lastWidth="1250" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8 or Default.9] ">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
@@ -9,5 +9,23 @@
         <p>Adding files and or modifying content.</p>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check:</h2>
+        <ol>
+            <li>In Pending Changes and File List:<ul><li>Modified Files should display a status as "Modified</li><li>New Files should display a status as "Add"</li></ul></li>
+        </ol>
+        <p>&#160;</p>
+        <MadCap:dropDown style="background-color: #dcdcdc;">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Things to check in database via Git:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <p><code>git status</code>: </p>
+                <p>Modified files should be listed under "Changes not staged for commit"</p>
+                <p>New files should be listed under "Untracked files"</p>
+                <p>&#160;</p>
+                <p><code>git log</code>: </p>
+                <p>Nothing new should show</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
