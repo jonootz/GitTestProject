@@ -1,14 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="294" MadCap:lastWidth="1289" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8] ">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="797" MadCap:lastWidth="1276" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8] ">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1>Resolving Conflicts</h1>
-        <p>Note: Since Git does not show up to date statuses, the commit log will provide user information on changes.</p>
-        <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
-        <h2>Things to check:</h2>
+        <p>Demo/Test:</p>
+        <ol>
+            <li>Dirty a paragraph in User A's project &gt;&#160;Commit &gt;&#160;Push</li>
+            <li>Dirty a paragraph in User B's project &gt;&#160;Commit &gt;&#160;Push<ol><li>When second user forces a conflict, error states: "Specified remote repository has been updated, perform a pull prior to pushing to remote."<ol><li>git status: Specified remote repository has been updated, perform a pull prior to pushing to remote.</li></ol></li><li>User B should Pull<ol><li>Resolve Conflicts dialog appears<ol><li><p>git status: Your branch and 'origin/master' have diverged, and have 1 and 1 different commit each, respectively.</p></li></ol></li></ol></li></ol></li>
+            <li>After resolving, file is modified and can then be committed locally</li>
+            <li>Commit<ol><li><p>Your branch is ahead of 'origin/master' by X commits.</p></li></ol></li>
+        </ol>
         <p>&#160;</p>
+        <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
+        <h2>Things to check in Flare:</h2>
+        <ol>
+            <li>New change(s) is reflected</li>
+        </ol>
+        <h2>Things to check in Remote:</h2>
+        <ol>
+            <li>Just refer to remote to verify what changes to expect</li>
+        </ol>
+        <p>&#160;</p>
+        <MadCap:dropDown style="background-color: #dcdcdc;">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Things to check in database via Git:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>&#160;</p>
+                <p><code>git status</code>: </p>
+                <p> "On branch master. Your branch is up-to-date with 'origin/master'. Nothing to commit, working directory clean" should display</p>
+                <p>&#160;</p>
+                <p><code>git log</code>: </p>
+                <p>If user manually resolves:</p>
+                <p>Should have 3 new commits (at least): one for user A, one for User B, and one for the resolved topic</p>
+                <p>&#160;</p>
+                <p>If user discards external:</p>
+                <p>&#160;</p>
+                <p>If user discards local:</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
