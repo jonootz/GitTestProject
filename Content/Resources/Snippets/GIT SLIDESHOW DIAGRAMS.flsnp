@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="405" MadCap:lastWidth="1131">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="458" MadCap:lastWidth="1488">
     <head>
     </head>
     <body>
@@ -39,7 +39,7 @@
                 </p>
                 <p>Staging is an intermediate area, an index, where files can be reviewed before completing the commit.</p>
                 <p>Allows user to commit certain files without committing all of the other modified files in your working directory.</p>
-                <p>Helps user avoid making two logically unrelated modifications to a file or files.</p>
+                <p>Helps user avoid committing two logically unrelated modifications to a file or files.</p>
                 <p>&#160;</p>
                 <p><b style="font-style: italic;">However Flare allows the user to emulate this with our Commit dialogs, where you can select or deselect files.</b>
                 </p>
