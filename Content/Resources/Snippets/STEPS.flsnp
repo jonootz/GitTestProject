@@ -72,7 +72,12 @@
                 <tr class="Body-Body1" MadCap:conditions="Default.4">
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Remote</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Push to a remote in order to share with other users</td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions=""><span style="background-color: #ffff00;">Step <b>2</b></span> - !Source Control |&#160;Pull or Push or Synchronize &gt;&#160;browse and create an Alias using URL&#160;from Remote</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">
+                        <ul>
+                            <li MadCap:conditions=""><span style="background-color: #ffff00;">Step <b>2</b></span> - !Source Control |&#160;Push <ul><li MadCap:conditions="">Browse and create an Alias using URL&#160;from Remote &gt;&#160;Add &gt;&#160;OK</li></ul></li>
+                            <li MadCap:conditions="">OK to Push</li>
+                        </ul>
+                    </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions=""><span style="background-color: #ffff00;">Step <b>1</b></span> - Create "project" in remote site to create a repository to push files to.</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
                         <p><code>git remote add origin {URL}
@@ -84,7 +89,7 @@
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.5">
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Clone</td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Collaborate with others</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Pull from a remote to collaborate with others</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">
                         <ul>
                             <li><span style="background-color: #ffff00;">Step <b>2</b></span> - !File |&#160;New Project |&#160;Import Project<ul><li>Choose Git <ul><li>Enter URL</li></ul></li></ul></li>
