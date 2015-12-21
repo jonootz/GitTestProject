@@ -52,4 +52,16 @@
     BackgroundColor="#ff0000"
     Name="13"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="A"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="B"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="C"
+    Comment="" />
 </CatapultConditionTagSet>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="742" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="970" MadCap:lastWidth="1423">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -8,8 +8,7 @@
             <col class="Column-Column1" style="width: 164px;" />
             <col class="Column-Column1" style="width: 202px;" />
             <col class="Column-Column1" style="width: 441px;" />
-            <col class="Column-Column1" />
-            <col class="Column-Column1" />
+            <col class="Column-Column1" style="width: 301px;" />
             <col class="Column-Column1" />
             <thead>
                 <tr class="Head-Header1" style="height: 68px;">
@@ -19,8 +18,7 @@
                     <th class="HeadE-Column1-Header1">Reason</th>
                     <th class="HeadE-Column1-Header1">Flare</th>
                     <th class="HeadE-Column1-Header1">Remote</th>
-                    <th class="HeadE-Column1-Header1">Git</th>
-                    <th class="HeadD-Column1-Header1">&#160;</th>
+                    <th class="HeadD-Column1-Header1" style="background-color: #d3d3d3;">Git</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,124 +27,142 @@
                     <td class="BodyE-Column1-Body1">Creates repository in project folder and commits all files to it</td>
                     <td class="BodyE-Column1-Body1">
                         <ul>
-                            <li>(Existing project) !Project |&#160;Project Properties |&#160;Source Control |&#160;Bind Project &gt; OK<ul><li>Bind locally only (default)</li><li>Bind locally and push to remote - Creates Remote Alias</li></ul></li>
-                            <li>(New project) !File |&#160;New Project|&#160;check Bind to Source Control then in Bind dialog you can <ul><li>Bind locally only (default)</li><li>Bind locally and push to remote - Create Remote Alias</li></ul></li>
+                            <li>(Existing project) !Project |&#160;Project Properties |&#160;Source Control |&#160;Bind Project &gt; OK<ul><li>Bind locally only (default)</li><li>Bind locally and push to remote - Creates Remote Alias (Use URL&#160;from Remote)</li></ul></li>
+                            <li>(New project) !File |&#160;New Project|&#160;check Bind to Source Control then in Bind dialog you can <ul><li>Bind locally only (default)</li><li>Bind locally and push to remote - Create Remote Alias (Use URL&#160;from Remote)</li></ul></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1">n/a</td>
-                    <td class="BodyE-Column1-Body1">
-                        <p>git init</p>
-                        <p>git add -A</p>
-                        <p>git commit -a -m "initial commit"</p>
+                    <td class="BodyE-Column1-Body1">If Pushing to remote on initial Bind, then create "project" in remote site to create a repository to push files to. Copy URL.</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;">
+                        <p><code>git init</code>
+                        </p>
+                        <p><code>git add -A</code>
+                        </p>
+                        <p><code>git commit -a -m "initial commit"</code>
+                        </p>
                     </td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.2">
                     <td class="BodyE-Column1-Body1">Modify</td>
                     <td class="BodyE-Column1-Body1">Updating content and files</td>
-                    <td class="BodyE-Column1-Body1"><i>Just alter or add content in file. Add, rename, or move files.</i> - No Check Out</td>
+                    <td class="BodyE-Column1-Body1">
+                        <ul>
+                            <li><i>Just alter or add content in file </i>
+                                <ul>
+                                    <li><i>(No Check Out, just dirty it). </i>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><i>Add, rename, or move files.</i> </li>
+                        </ul>
+                    </td>
                     <td class="BodyE-Column1-Body1">n/a</td>
-                    <td class="BodyE-Column1-Body1">files become "Untracked"</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;">Files become "Untracked"</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.3">
                     <td class="BodyE-Column1-Body1">Commit</td>
                     <td class="BodyE-Column1-Body1">Commit changes to local repo/database</td>
                     <td class="BodyE-Column1-Body1">!Source Control |&#160;Commit, Add, or Commit All</td>
                     <td class="BodyE-Column1-Body1">n/a</td>
-                    <td class="BodyE-Column1-Body1">git commit</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git commit</code>
+                    </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.4">
                     <td class="BodyE-Column1-Body1">Remote</td>
                     <td class="BodyE-Column1-Body1">Push to a remote in order to share with other users</td>
-                    <td class="BodyE-Column1-Body1"><span style="background-color: #ffff00;">Step <b>2</b></span> - !Project |&#160;Project Properties |&#160;Source Control |&#160;Bind Project &gt; OK</td>
+                    <td class="BodyE-Column1-Body1"><span style="background-color: #ffff00;">Step <b>2</b></span> - !Source Control |&#160;Pull or Push or Synchronize &gt;&#160;browse and create an Alias using URL&#160;from Remote &gt; OK</td>
                     <td class="BodyE-Column1-Body1"><span style="background-color: #ffff00;">Step <b>1</b></span> - Create "project" in remote site to create a repository to push files to.</td>
-                    <td class="BodyE-Column1-Body1">
-                        <p>git remote add origin {URL}
-</p>
-                        <p>git push -u origin master</p>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;">
+                        <p><code>git remote add origin {URL}
+</code>
+                        </p>
+                        <p><code>git push -u origin master</code>
+                        </p>
                     </td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.5">
                     <td class="BodyE-Column1-Body1">Clone</td>
                     <td class="BodyE-Column1-Body1">Collaborate with others</td>
                     <td class="BodyE-Column1-Body1">
                         <ul>
-                            <li>!File |&#160;New Project |&#160;Import Project<ul><li>Choose Git <ul><li>Enter URL</li></ul></li></ul></li>
+                            <li><span style="background-color: #ffff00;">Step <b>2</b></span> - !File |&#160;New Project |&#160;Import Project<ul><li>Choose Git <ul><li>Enter URL</li></ul></li></ul></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">git clone {URL}</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="Body-Body1" MadCap:conditions="Default.7">
-                    <td class="BodyE-Column1-Body1">Push</td>
-                    <td class="BodyE-Column1-Body1">Sends local database content/changes up to a Remote</td>
-                    <td class="BodyE-Column1-Body1">!Source Control |&#160;Push &gt;&#160;Select Remote Alias</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">git push origin master</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="Body-Body1" MadCap:conditions="Default.8">
-                    <td class="BodyE-Column1-Body1">Pull</td>
-                    <td class="BodyE-Column1-Body1">Updates local database with new content/changes from the Remote</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">git pull origin master</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="Body-Body1" MadCap:conditions="Default.9">
-                    <td class="BodyE-Column1-Body1">Synchronize</td>
-                    <td class="BodyE-Column1-Body1"><span style="color: #ff0000;">Commits then Push</span>
+                    <td class="BodyE-Column1-Body1"><span style="background-color: #ffff00;">Step <b>1</b></span> - Create "project" in remote site to create a repository to push files to.</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git clone {URL}</code>
                     </td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.6">
-                    <td class="BodyE-Column1-Body1">Multiple Users</td>
-                    <td class="BodyE-Column1-Body1">Push and Pull Conflicts</td>
+                    <td class="BodyE-Column1-Body1">Push</td>
+                    <td class="BodyE-Column1-Body1">Sends local database content/changes up to a Remote</td>
+                    <td class="BodyE-Column1-Body1">!Source Control |&#160;Push &gt;&#160;Select Remote Alias &gt;&#160;OK</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git push origin master</code>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" MadCap:conditions="Default.7">
+                    <td class="BodyE-Column1-Body1">Pull</td>
+                    <td class="BodyE-Column1-Body1">Updates local database with new content/changes from the Remote</td>
+                    <td class="BodyE-Column1-Body1">!Source Control |&#160;Pull &gt;&#160;Select Remote Alias &gt;&#160;OK</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git pull &lt;remote&gt;</code>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" MadCap:conditions="Default.8">
+                    <td class="BodyE-Column1-Body1">Synchronize</td>
+                    <td class="BodyE-Column1-Body1"><span style="color: #ff0000;">Commits then Pushes then Pulls</span>
+                    </td>
+                    <td class="BodyE-Column1-Body1">!Source Control |&#160;Synchronize &gt;&#160;Select Remote Alias &gt;&#160;OK</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git fetch &lt;remote&gt; &lt;branch&gt;</code>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" MadCap:conditions="Default.9">
+                    <td class="BodyE-Column1-Body1">Conflicts</td>
+                    <td class="BodyE-Column1-Body1">Push and Pull will prompt if there are Conflicts</td>
+                    <td class="BodyE-Column1-Body1">If Remote has newer changes, then you will be prompted to pull in Flare before you can push to Remote.</td>
+                    <td class="BodyE-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git diff</code>
+                    </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.10">
                     <td class="BodyE-Column1-Body1">Pending Changes</td>
                     <td class="BodyE-Column1-Body1">Status</td>
+                    <td class="BodyE-Column1-Body1">
+                        <ul>
+                            <li>Shows Statuses: Committed, Pending Add and Modified</li>
+                            <li>Cannot show Other User status since you are working in local repository<ul><li>Therefore files have no need to be Locked or show Out-Of Date.</li></ul></li>
+                        </ul>
+                    </td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git status</code>
+                    </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.11">
                     <td class="BodyE-Column1-Body1">History vs Commit Log</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git log</code>
+                    </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.12">
                     <td class="BodyE-Column1-Body1">Branches</td>
                     <td class="BodyE-Column1-Body1">Create alternative versions of the project</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;"><code>git checkout &lt;branch&gt;</code>
+                    </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.13">
                     <td class="BodyB-Column1-Body1">Merging Branches</td>
                     <td class="BodyB-Column1-Body1">&#160;</td>
                     <td class="BodyB-Column1-Body1">Not a feature</td>
                     <td class="BodyB-Column1-Body1">&#160;</td>
-                    <td class="BodyB-Column1-Body1">&#160;</td>
-                    <td class="BodyA-Column1-Body1">&#160;</td>
+                    <td class="BodyA-Column1-Body1" style="background-color: #d3d3d3;"><code>git merge &lt;branch&gt;</code>
+                    </td>
                 </tr>
             </tbody>
         </table>
+        <p class="spacer">&#160;</p>
     </body>
 </html>
