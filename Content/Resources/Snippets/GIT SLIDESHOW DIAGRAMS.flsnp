@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="368" MadCap:lastWidth="1223">
+    <head>
+    </head>
+    <body>
+        <h1>Git Diagrams</h1>
+        <MadCap:slideshow MadCap:InfiniteLoop="True" MadCap:AutoDirection="next" MadCap:Pause="4000" MadCap:Mode="horizontal" MadCap:Speed="500">
+            <MadCap:slide>
+                <h2>Git File System vs Others (SVN, TFS, Perforce)</h2>
+                <p>
+                    <img src="../Images/GitFileSystem2.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <div style="text-align: center;">
+                    <p style="text-align: left;">Git allows offline Source Control because it's repository is in the local project folder</p>
+                    <p style="text-align: left;">Can be shared with Remote Repositories.</p>
+                    <p style="text-align: left;">Tip: In case the shared Remote is corrupted, each local copy is essentially a backup, since they are all clones of it.</p>
+                    <p style="text-align: left;">Branching and Merging</p>
+                    <p style="text-align: left;">&#160;</p>
+                    <p style="text-align: left;"><i style="text-decoration: underline;">Check Outs</i> is not necessary, just dirty file as it is not Ready Only. Git does not have the concept for Checkout</p>
+                    <p style="text-align: left;"><b>Commit</b>: Is like a <i style="text-decoration: underline;">Check In</i>, but to Local Repository</p>
+                    <p style="text-align: left;"><b>Push</b>: Is like a Check In, but to a Shared Remote Server*</p>
+                    <p style="text-align: left;"><b>Pull</b>: Is like <i style="text-decoration: underline;">Get Latest</i>, but from Shared Remote Server*</p>
+                    <p style="text-align: left;"><b>Synchronize</b>: Is a Commit, then a Push, then a Pull</p>
+                    <p style="text-align: left;">&#160;</p>
+                    <p style="text-align: left;">*Git stores snapshots of the whole file system, so when users Push, Pull, or Sync with a shared Repository ("Remote"), they push or pull the whole snapshot whereas with other SCMs, users Check In changes directly to the shared Repository and only get the newest changes with Get Latest.</p>
+                </div>
+                <p>&#160;</p>
+                <p>&#160;</p>
+            </MadCap:slide>
+            <MadCap:slide>
+                <h2>Commit Then Push</h2>
+                <p>
+                    <img src="../Images/GitFileSystem.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <p>&#160;</p>
+            </MadCap:slide>
+            <MadCap:slide>
+                <h2>Bypasses git add (Staging)</h2>
+                <p>
+                    <img src="../Images/GitFileSystem3.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <p>Unlike the other systems, Git has something called the "staging area" or "index". This is an intermediate area where commits can be formatted and reviewed before completing the commit.</p>
+                <p>One thing that sets Git apart from other tools is that it's possible to quickly stage some of your files and commit them without committing all of the other modified files in your working directory or having to list them on the command line during the commit.</p>
+                <p>This allows you to stage only portions of a modified file. Gone are the days of making two logically unrelated modifications to a file before you realized that you forgot to commit one of them. Now you can just stage the change you need for the current commit and stage the other change for the next commit. This feature scales up to as many different changes to your file as needed.</p>
+                <p>Of course, Git also makes it easy to ignore this feature if you don't want that kind of control — just add a '-a' to your commit command in order to add all changes to all files to the staging area.</p>
+                <p>&#160;</p>
+            </MadCap:slide>
+        </MadCap:slideshow>
+    </body>
+</html>
