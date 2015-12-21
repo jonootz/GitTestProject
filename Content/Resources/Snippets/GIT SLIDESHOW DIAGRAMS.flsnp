@@ -17,10 +17,14 @@
                     <h3 style="text-align: left;">Differences with other SCMs</h3>
                     <ul>
                         <li style="text-align: left;">Git does not have the concept for <u style="font-style: italic;">Check Out</u>. With Git, just dirty file as it is not Ready Only. </li>
-                        <li style="text-align: left;"><b>Commit</b>: Is like a <i style="text-decoration: underline;">Check In</i>, but to Local Repository</li>
-                        <li style="text-align: left;"><b>Push</b>: Is like a <u style="font-style: italic;">Check In</u>, but to a Shared Remote Server*</li>
-                        <li style="text-align: left;"><b>Pull</b>: Is like <i style="text-decoration: underline;">Get Latest</i>, but from Shared Remote Server*</li>
-                        <li style="text-align: left;"><b>Synchronize</b>: Is a <b>Commit</b>, then a <b>Push</b>, then a <b>Pull</b></li>
+                        <li style="text-align: left;">
+                            <b>Commit</b>: Is like a <i style="text-decoration: underline;">Check In</i>, but to Local Repository</li>
+                        <li style="text-align: left;">
+                            <b>Push</b>: Is like a <u style="font-style: italic;">Check In</u>, but to a Shared Remote Server*</li>
+                        <li style="text-align: left;">
+                            <b>Pull</b>: Is like <i style="text-decoration: underline;">Get Latest</i>, but from Shared Remote Server*</li>
+                        <li style="text-align: left;">
+                            <b>Synchronize</b>: Is a <b>Commit</b>, then a <b>Push</b>, then a <b>Pull</b></li>
                     </ul>
                 </div>
             </MadCap:slide>
@@ -30,7 +34,8 @@
                     <img src="../Images/GitFileSystem.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
                 </p>
                 <p style="text-align: left;">*Git stores snapshots of the whole file system, so when users <b>Push, Pull, or Sync</b> with a shared Repository ("Remote"), they push or pull the whole snapshot whereas with other SCMs, users <i style="text-decoration: underline;">Check In</i> file based changes to the shared Repository and only get the newest files changes with <i style="text-decoration: underline;">Get Latest</i>.</p>
-                <p style="text-align: left;"><b>Tip:</b> In case the shared Remote is corrupted, each local copy is essentially a backup, since they are all clones of it.</p>
+                <p style="text-align: left;">
+                    <b>Tip:</b> In case the shared Remote is corrupted, each local copy is essentially a backup, since they are all clones of it.</p>
             </MadCap:slide>
             <MadCap:slide>
                 <h2>Flare bypasses Staging (git add)</h2>
@@ -41,7 +46,8 @@
                 <p>Allows user to commit certain files without committing all of the other modified files in your working directory.</p>
                 <p>Helps user avoid committing two logically unrelated modifications to a file or files.</p>
                 <p>&#160;</p>
-                <p><b style="font-style: italic;">However Flare allows the user to emulate this with our Commit dialogs, where you can select or deselect files.</b>
+                <p>
+                    <b style="font-style: italic;">However Flare allows the user to emulate this with our Commit dialogs, where you can select or deselect files.</b>
                 </p>
                 <p>&#160;</p>
             </MadCap:slide>
