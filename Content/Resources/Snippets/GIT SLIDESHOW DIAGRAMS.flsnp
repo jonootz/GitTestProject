@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="458" MadCap:lastWidth="1435">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="549" MadCap:lastWidth="1195">
     <head>
     </head>
     <body>
@@ -20,7 +20,7 @@
                         <li style="text-align: left;"><b>Commit</b>: Is like a <i style="text-decoration: underline;">Check In</i>, but to Local Repository</li>
                         <li style="text-align: left;"><b>Push</b>: Is like a <u style="font-style: italic;">Check In</u>, but to a Shared Remote Server*</li>
                         <li style="text-align: left;"><b>Pull</b>: Is like <i style="text-decoration: underline;">Get Latest</i>, but from Shared Remote Server*</li>
-                        <li style="text-align: left;"><b>Synchronize</b>: Is a <b>Commit</b>, then a <b>Push</b>, then a <b>Pull</b></li>
+                        <li style="text-align: left;"><b>Synchronize</b>: Is <b>Pull</b>, then a <b>Push</b>. </li>
                     </ul>
                 </div>
             </MadCap:slide>
