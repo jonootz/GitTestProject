@@ -10,9 +10,11 @@
             <li>Multiple branches can be entirely independent of each other.</li>
             <li>Uses:<ul><li>Try out an ideas, merge back in</li><li>Experiment in, then delete branch</li><li>Traditionally used to test New Features</li><li>Have one that goes to production, another that you merge work into for testing, and several smaller ones for day to day work</li></ul></li>
         </ul>
+        <p>Note: With Git you can switch between branches without having to commit. With Flare we force you to.</p>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check in Flare:</h2>
-        <p>&#160;</p>
+        <p>Check to make sure files and changes are retained in correct branch when switching </p>
+        <p>Make sure </p>
         <h2>Things to check in Remote:</h2>
         <p>&#160;</p>
         <MadCap:dropDown style="background-color: #dcdcdc;">
@@ -21,10 +23,19 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>&#160;</p>
-                <p><code>git status</code>: </p>
+                <p><code>git checkout &lt;branch&gt;</code>: </p>
+                <p>Switches between branches</p>
+                <p>&#160;</p>
+                <p><code>git checkout &lt;branch&gt;</code>: </p>
+                <p>Switches between branches</p>
+                <p>&#160;</p>
+                <p><code>git checkout &lt;branch&gt;</code>: </p>
+                <p>Switches between branches</p>
                 <p>&#160;</p>
                 <p><code>git log</code>: </p>
-                <p> <![CDATA[ ]]></p>
+                <p> Checks commits related to branch</p>
+                <p>&#160;</p>
+                <p>Check Windows Explorer to see if branches have different files</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>
