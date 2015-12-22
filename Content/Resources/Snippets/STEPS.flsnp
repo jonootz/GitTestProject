@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1018" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1037" MadCap:lastWidth="1370">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -32,7 +32,8 @@
                         </ul>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">
-                        <p MadCap:conditions="">If Pushing to remote on initial bind, then you need to get URL from Remote Repository (GitLab, GitHub, etc.)</p>
+                        <p MadCap:conditions="">Not affected unless you Push on Bind.</p>
+                        <p MadCap:conditions="">If Pushing to remote on initial bind, then you need to get URL from Remote Repository (GitLab, GitHub, etc.).</p>
                         <p MadCap:conditions="">&#160;</p>
                     </td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
@@ -58,14 +59,14 @@
                             <li><i>Add, rename, or move files.</i> <![CDATA[ ]]></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">n/a</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Not Affected</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">&#160;</td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.3">
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Commit</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Commit changes to local repo/database</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">!Source Control |&#160;Commit, Add, or Commit All</td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">n/a</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Not Affected</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git commit</code>
                     </td>
                 </tr>
@@ -103,7 +104,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Push</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Sends local database content/changes up to a Remote</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">!Source Control |&#160;Push &gt;&#160;Select Remote Alias </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Remote updates</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git push origin master</code>
                     </td>
                 </tr>
@@ -111,7 +112,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Pull</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Updates local database with new content/changes from the Remote</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">!Source Control |&#160;Pull &gt;&#160;Select Remote Alias </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Not Affected</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git pull &lt;remote&gt;</code>
                     </td>
                 </tr>
@@ -120,7 +121,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions=""><span style="color: #ff0000;">Commits then Pushes then Pulls</span>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">!Source Control |&#160;Synchronize &gt;&#160;Select Remote Alias </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Remotes updates</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git fetch &lt;remote&gt; &lt;branch&gt;</code>
                     </td>
                 </tr>
@@ -128,7 +129,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Conflicts</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Push and Pull will prompt if there are Conflicts</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">If Remote has newer changes, then you will be prompted to pull in Flare before you can push to Remote.</td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Not Affected, until after Conflicts are resolved and changes are pushed back up.</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git diff</code>
                     </td>
                 </tr>
@@ -141,7 +142,7 @@
                             <li>Cannot show Other User statuses since you are working in local repository<ul><li>Therefore files have no need to be Locked and cannot show if Out-Of Date.</li></ul></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">n/a</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git status</code>
                     </td>
                 </tr>
@@ -163,7 +164,7 @@
                             <li>!Source Control |&#160;Branch<ul><li>Create</li><li>Switch</li><li>Delete</li></ul></li>
                         </ul>
                     </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Remote updates after new branches are created and pushed or deleted.</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
                         <p><code>git checkout -b &lt;branch&gt;</code>
                         </p><code>git checkout &lt;branch&gt;</code>
@@ -175,7 +176,7 @@
                     <td class="BodyB-Column1-Body1" MadCap:conditions="">Merging Branches</td>
                     <td class="BodyB-Column1-Body1" MadCap:conditions="">Experiential, Testing, Different Products</td>
                     <td class="BodyB-Column1-Body1" MadCap:conditions="">Branch Merging - Not a feature</td>
-                    <td class="BodyB-Column1-Body1" MadCap:conditions="">&#160;</td>
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Remote updates after branches get merged and deleted.</td>
                     <td class="BodyA-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git merge &lt;branch&gt;</code>
                     </td>
                 </tr>
