@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1074" MadCap:lastWidth="1250">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1017" MadCap:lastWidth="1370">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -138,7 +138,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">
                         <ul>
                             <li>Shows Statuses: Committed, Pending Add and Modified</li>
-                            <li>Cannot show Other User status since you are working in local repository<ul><li>Therefore files have no need to be Locked or show Out-Of Date.</li></ul></li>
+                            <li>Cannot show Other User statuses since you are working in local repository<ul><li>Therefore files have no need to be Locked and cannot show if Out-Of Date.</li></ul></li>
                         </ul>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
@@ -151,6 +151,8 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Open any file &gt;&#160;!Source Control |&#160;View History</td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">Commit Log available for whole project</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git log</code>
+                        <p><code>git log -- &lt;file_name&gt;</code>
+                        </p>
                     </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.12">
