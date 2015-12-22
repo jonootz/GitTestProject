@@ -165,6 +165,8 @@
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git checkout &lt;branch&gt;</code>
+                        <p><code>git branch -d hotfix</code>
+                        </p>
                     </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.13">
