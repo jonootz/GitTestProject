@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="549" MadCap:lastWidth="1435">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="458" MadCap:lastWidth="1435">
     <head>
     </head>
     <body>
@@ -29,11 +29,11 @@
                 <p>
                     <img src="../Images/GitFileSystem.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
                 </p>
-                <p style="text-align: left;">*Git stores snapshots of the whole file system, so when users <b>Push, Pull, or Sync</b> with a shared Repository ("Remote"), they push or pull the whole snapshot whereas with other SCMs, users <i style="text-decoration: underline;">Check In</i> file based changes to the shared Repository and only get the newest files changes with <i style="text-decoration: underline;">Get Latest</i>.</p>
+                <p style="text-align: left;">Git stores snapshots of the whole file system, when Pushing to a shared Repository (aka "Remote"), the whole snapshot (aka Container of all files) is pushed, whereas with other SCMs, users <i style="text-decoration: underline;">Check In</i> file based changes to the shared Repository. Same with Pull vs <i style="text-decoration: underline;">Get Latest</i>.</p>
                 <p style="text-align: left;"><b>Tip:</b> In case the shared Remote is corrupted, each local copy is essentially a backup, since they are all clones of it.</p>
             </MadCap:slide>
             <MadCap:slide>
-                <h2>Flare bypasses Staging (git add)<span style="color: #a9a9a9;"> - 3 of 3</span></h2>
+                <h2>Flare bypasses Git Staging (git add), but we have our own version<span style="color: #a9a9a9;"> - 3 of 3</span></h2>
                 <p>
                     <img src="../Images/GitFileSystem3.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
                 </p>

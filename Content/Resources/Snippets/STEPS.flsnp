@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1172" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1170" MadCap:lastWidth="1540">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -121,7 +121,7 @@
                     <td class="BodyE-Column1-Body1" MadCap:conditions=""><span style="color: #ff0000;">Commits then Pushes then Pulls</span>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">!Source Control |&#160;Synchronize &gt;&#160;Select Remote Alias </td>
-                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Remotes updates</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">First local database updates, then pushes to Remote</td>
                     <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git fetch &lt;remote&gt; &lt;branch&gt;</code>
                     </td>
                 </tr>
