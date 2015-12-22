@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1017" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1018" MadCap:lastWidth="1370">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -164,7 +164,9 @@
                         </ul>
                     </td>
                     <td class="BodyE-Column1-Body1" MadCap:conditions="">&#160;</td>
-                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git checkout &lt;branch&gt;</code>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
+                        <p><code>git checkout -b &lt;branch&gt;</code>
+                        </p><code>git checkout &lt;branch&gt;</code>
                         <p><code>git branch -d hotfix</code>
                         </p>
                     </td>

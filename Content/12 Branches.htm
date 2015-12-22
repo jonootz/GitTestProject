@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="676" MadCap:lastWidth="1192" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.13 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8 or Default.9] ">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="833" MadCap:lastWidth="1370" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.13 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8 or Default.9] ">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Branche</h1>
+        <h1>Branches</h1>
         <ul>
             <li>Multiple branches can be entirely independent of each other.</li>
-            <li>Uses:<ul><li>Try out an ideas, merge back in</li><li>Experiment in, then delete branch</li><li>Traditionally used to test New Features</li><li>Have one that goes to production, another that you merge work into for testing, and several smaller ones for day to day work</li></ul></li>
+            <li>Uses:<ul><li>Try out an ideas, merge back in<ul><li>Flare has no UI&#160;to Merge Branches, but you can via GitBash (command line)</li></ul></li><li>Experiment in, then delete branch</li><li>Traditionally used to test New Features or hot fixes (Think of Flare dot-releases)</li><li>Have one that goes to production, another that you merge work into for testing, and several smaller ones for day to day work</li></ul></li>
         </ul>
-        <p>Note: With Git you can switch between branches without having to commit. With Flare we force you to.</p>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check in Flare:</h2>
-        <p>Check to make sure files and changes are retained in correct branch when switching </p>
-        <p>Make sure </p>
+        <ul>
+            <li>Check to make sure files and changes are retained in correct branch when switching </li>
+            <li>Make sure before creating a new branch commit, push and pull, your master needs to be up to date.</li>
+            <li>With Git you can switch between branches without having to commit. With Flare we force you to.</li>
+        </ul>
         <h2>Things to check in Remote:</h2>
+        <p>Pushing a branch within Flare should push only changes in that branch to remote.</p>
         <p>&#160;</p>
         <MadCap:dropDown style="background-color: #dcdcdc;">
             <MadCap:dropDownHead>
@@ -23,17 +26,17 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>&#160;</p>
-                <p><code>git checkout &lt;branch&gt;</code>: </p>
+                <p><code>git checkout -b &lt;branch_name&gt;</code>: </p>
+                <p>Creates new branches</p>
+                <p>&#160;</p>
+                <p><code>git checkout &lt;branch_name&gt;</code>: </p>
                 <p>Switches between branches</p>
                 <p>&#160;</p>
-                <p><code>git checkout &lt;branch&gt;</code>: </p>
-                <p>Switches between branches</p>
-                <p>&#160;</p>
-                <p><code>git checkout &lt;branch&gt;</code>: </p>
-                <p>Switches between branches</p>
+                <p><code>git branch -D [name_of_your_new_branch]</code>: </p>
+                <p>Deletes branches</p>
                 <p>&#160;</p>
                 <p><code>git log</code>: </p>
-                <p> Checks commits related to branch</p>
+                <p> Checks commits related to branch. Will include commits from master before it was branched.</p>
                 <p>&#160;</p>
                 <p>Check Windows Explorer to see if branches have different files</p>
             </MadCap:dropDownBody>
