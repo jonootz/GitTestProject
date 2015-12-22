@@ -2,6 +2,48 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Topic"
+    Title="00 Git Diagrams"
+    Link="/Content/00 Git Diagrams.htm" />
+  <TocEntry
+    Title="Binding"
     Link="/Content/01 Bind.htm" />
+  <TocEntry
+    Title="Modifying Files or Content"
+    Link="/Content/02 Modify.htm" />
+  <TocEntry
+    Title="Committing"
+    Link="/Content/03 Commit.htm" />
+  <TocEntry
+    Title="Remotes"
+    Link="/Content/04 Remote.htm" />
+  <TocEntry
+    Title="Cloning a.k.a. Importing"
+    Link="/Content/05 Clone.htm" />
+  <TocEntry
+    Title="Pushing"
+    Link="/Content/06 Push.htm" />
+  <TocEntry
+    Title="Pulling"
+    Link="/Content/07 Pull.htm" />
+  <TocEntry
+    Title="Synchronize"
+    Link="/Content/08 Synchronize.htm" />
+  <TocEntry
+    Title="Resolving Conflicts"
+    Link="/Content/09 Resolving Conflicts.htm" />
+  <TocEntry
+    Title="Pending Changes"
+    Link="/Content/10 Pending Changes.htm" />
+  <TocEntry
+    Title="History and the Commit Log"
+    Link="/Content/11 History vs Commit Log.htm" />
+  <TocEntry
+    Title="Branches"
+    Link="/Content/12 Branches.htm" />
+  <TocEntry
+    Title="Merging"
+    Link="/Content/13 Merging.htm" />
+  <TocEntry
+    Title="14 SSH"
+    Link="/Content/14 SSH.htm" />
 </CatapultToc>

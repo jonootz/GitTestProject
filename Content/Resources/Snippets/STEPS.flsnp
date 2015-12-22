@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1037" MadCap:lastWidth="1370">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1172" MadCap:lastWidth="1370">
     <head>
         <link href="../TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -173,11 +173,29 @@
                     </td>
                 </tr>
                 <tr class="Body-Body1" MadCap:conditions="Default.13">
-                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Merging Branches</td>
-                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Experiential, Testing, Different Products</td>
-                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Branch Merging - Not a feature</td>
-                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Remote updates after branches get merged and deleted.</td>
-                    <td class="BodyA-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git merge &lt;branch&gt;</code>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Merging Branches</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Experiential, Testing, Different Products</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Branch Merging - Not a feature</td>
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="">Remote updates after branches get merged and deleted.</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions=""><code>git merge &lt;branch&gt;</code>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" MadCap:conditions="Default.14">
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="">SSH</td>
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="">Secure Shell - is a cryptographic (encrypted) network protocol to allow remote login and other network services to operate securely over an unsecured network</td>
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="">
+                        <p><span style="background-color: #ffff00; font-weight: bold;">STEP 4)</span> Generate new empty project in Flare</p>
+                        <p><b style="background-color: #ffff00;">STEP&#160;5)</b> Bind project to Git, use the SSH link in Remote and Push</p>
+                    </td>
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="">
+                        <p><b style="background-color: #ffff00;">STEP 2)</b> Create new repo on Remote</p>
+                        <p><b style="background-color: #ffff00;">STEP 3)</b> Apply key to Remote</p>
+                        <p>Generate new empty project in Flare</p>
+                        <p>Bind project to Git, use the SSH link in Remote</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1" style="background-color: #d3d3d3;" MadCap:conditions="">
+                        <p MadCap:conditions=""><b style="background-color: #ffff00;">STEP 1)</b> Generate a key in GitBash:</p>
+                        <p MadCap:conditions=""><code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com</code>"</p>
                     </td>
                 </tr>
             </tbody>

@@ -1,18 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="816" MadCap:lastWidth="1396" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8] " MadCap:fileTags="File Tags/FileTagSetStatus.In Progress" MadCap:conditions="Default.UPDATE">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="816" MadCap:lastWidth="1540" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.14 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.8 or Default.A or Default.B or Default.C or Default.UPDATE] " MadCap:fileTags="File Tags/FileTagSetStatus.In Progress" MadCap:conditions="Default.UPDATE">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1>Resolving Conflicts</h1>
-        <p>Demo/Test:</p>
-        <ol>
-            <li>Dirty a paragraph in User A's project &gt;&#160;Commit &gt;&#160;Push</li>
-            <li>Dirty a paragraph in User B's project &gt;&#160;Commit &gt;&#160;Push<ol><li>When second user forces a conflict, error states: "Specified remote repository has been updated, perform a pull prior to pushing to remote."<ol><li>git status: Specified remote repository has been updated, perform a pull prior to pushing to remote.</li></ol></li><li>User B should Pull<ol><li>Resolve Conflicts dialog appears<ol><li><p>git status: Your branch and 'origin/master' have diverged, and have 1 and 1 different commit each, respectively.</p></li></ol></li></ol></li></ol></li>
-            <li>After resolving, file is modified and can then be committed locally</li>
-            <li>Commit<ol><li><p>Your branch is ahead of 'origin/master' by X commits.</p></li></ol></li>
-        </ol>
+        <div>
+            <p>Demo/Test:</p>
+            <ol>
+                <li>Dirty a paragraph in User A's project &gt;&#160;Commit &gt;&#160;Push</li>
+                <li>Dirty a paragraph in User B's project &gt;&#160;Commit &gt;&#160;Push<ol><li>When second user forces a conflict, error states: "Specified remote repository has been updated, perform a pull prior to pushing to remote."<ol><li>git status: Specified remote repository has been updated, perform a pull prior to pushing to remote.</li></ol></li><li>User B should Pull<ol><li>Resolve Conflicts dialog appears<ol><li><p>git status: Your branch and 'origin/master' have diverged, and have 1 and 1 different commit each, respectively.</p></li></ol></li></ol></li></ol></li>
+                <li>After resolving, file is modified and can then be committed locally</li>
+                <li>Commit<ol><li><p>Your branch is ahead of 'origin/master' by X commits.</p></li></ol></li>
+            </ol>
+        </div>
         <p>&#160;</p>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check in Flare:</h2>

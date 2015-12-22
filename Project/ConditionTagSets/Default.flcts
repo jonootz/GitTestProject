@@ -68,4 +68,8 @@
     BackgroundColor="#8b008b"
     Name="UPDATE"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="14"
+    Comment="" />
 </CatapultConditionTagSet>
