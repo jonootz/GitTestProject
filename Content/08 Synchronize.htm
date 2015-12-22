@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.14 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.9 or Default.A or Default.B or Default.C or Default.UPDATE] " MadCap:lastBlockDepth="8" MadCap:lastHeight="438" MadCap:lastWidth="1422">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditionTagExpression="exclude[Default.1 or Default.10 or Default.11 or Default.12 or Default.13 or Default.14 or Default.2 or Default.3 or Default.4 or Default.5 or Default.6 or Default.7 or Default.9 or Default.A or Default.B or Default.C or Default.UPDATE] " MadCap:lastBlockDepth="8" MadCap:lastHeight="476" MadCap:lastWidth="1540">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
@@ -9,16 +9,18 @@
         <p>Essentially git is fetching from the remote, merging with the local and then pushing back to the remote.</p>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check in Flare:</h2>
-        <p>You must commit all modified files to proceed with the synchronize:</p>
+        <p>You must commit all modified files to proceed with Synchronize:</p>
+        <ul>
+            <li>Committed file with no change on Remote - Pulls, then pushes local changes</li>
+            <li>Committed file with change on Remote - Pulls changes, then pushes local changes</li>
+            <li>After resolving conflicts - Yes, it Syncs</li>
+        </ul>
+        <p>These scenarios will not initiate a synchronize dialog if Synchronize is used:</p>
         <ul>
             <li style="text-decoration: line-through;">Dirty file with no change on Remote - <b>Syncs without saving or committing</b></li>
             <li style="text-decoration: line-through;">Modified (Saved) file with no change on Remote - <b>Forces Commit only</b></li>
-            <li>Committed file with no change on Remote - <b>Nothing happens</b></li>
             <li style="text-decoration: line-through;">Dirty file with change on Remote -<b>Forces Commit only</b></li>
             <li style="text-decoration: line-through;">Modified (Saved) file with change on Remote -<b>Forces Commit only</b></li>
-            <li>Committed file with change on Remote -<b>Nothing happens</b></li>
-            <li>After resolving conflicts - Yes, it Syncs</li>
-            <li>After pulling, then Sync is launching ---Investigate!!!</li>
         </ul>
     </body>
 </html>
