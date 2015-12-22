@@ -8,13 +8,13 @@
         <h1>Synchronize</h1>
         <MadCap:snippetBlock src="Resources/Snippets/STEPS.flsnp" />
         <h2>Things to check in Flare:</h2>
-        <p>Is this true - only if change is in the remote too - Buggy?:</p>
+        <p>You must commit all modified files to proceed with the synchronize:</p>
         <ul>
-            <li>Dirty file with no change on Remote - <b>Syncs without saving or committing</b></li>
-            <li>Modified (Saved) file with no change on Remote - <b>Forces Commit only</b></li>
+            <li style="text-decoration: line-through;">Dirty file with no change on Remote - <b>Syncs without saving or committing</b></li>
+            <li style="text-decoration: line-through;">Modified (Saved) file with no change on Remote - <b>Forces Commit only</b></li>
             <li>Committed file with no change on Remote - <b>Nothing happens</b></li>
-            <li>Dirty file with change on Remote -<b>Forces Commit only</b></li>
-            <li>Modified (Saved) file with change on Remote -<b>Forces Commit only</b></li>
+            <li style="text-decoration: line-through;">Dirty file with change on Remote -<b>Forces Commit only</b></li>
+            <li style="text-decoration: line-through;">Modified (Saved) file with change on Remote -<b>Forces Commit only</b></li>
             <li>Committed file with change on Remote -<b>Nothing happens</b></li>
             <li>After resolving conflicts - Yes, it Syncs</li>
         </ul>
