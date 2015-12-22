@@ -15,7 +15,7 @@
                     <th class="HeadE-Column1-Header1">
                         <p>Step</p>
                     </th>
-                    <th class="HeadE-Column1-Header1">Reason</th>
+                    <th class="HeadE-Column1-Header1">Reason / Action</th>
                     <th class="HeadE-Column1-Header1">Flare</th>
                     <th class="HeadE-Column1-Header1">Remote</th>
                     <th class="HeadD-Column1-Header1" style="background-color: #d3d3d3;">Git</th>
