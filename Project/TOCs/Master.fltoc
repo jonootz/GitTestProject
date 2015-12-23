@@ -3,7 +3,7 @@
   Version="1">
   <TocEntry
     Title="00 Git Diagrams"
-    Link="/Content/00 Git Diagrams.htm" />
+    Link="/Content/00 About Git.htm" />
   <TocEntry
     Title="Binding"
     Link="/Content/01 Bind.htm" />
